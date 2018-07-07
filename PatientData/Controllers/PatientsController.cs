@@ -9,6 +9,7 @@ using System.Web.Http;
 
 namespace PatientData.Controllers
 {
+    [Authorize]
     public class PatientsController : ApiController
     {
 
